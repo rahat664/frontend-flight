@@ -5,7 +5,7 @@ import {initFlowbite} from "flowbite";
 
 @Component({
   selector: 'app-main',
-  imports: [ HomeComponent],
+    imports: [ RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
